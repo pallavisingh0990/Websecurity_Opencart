@@ -1,0 +1,232 @@
+2016-01-31 8:30:44 - PHP Notice:  Use of undefined constant pallavi - assumed 'pallavi' in /home/student/public_html/opencart/catalog/view/theme/default/template/common/home.tpl on line 4
+2016-02-02 6:35:22 - PHP Notice:  session_start(): ps_files_cleanup_dir: opendir(/var/lib/php5) failed: Permission denied (13) in /home/student/public_html/opencart/system/library/session.php on line 11
+2016-02-06 8:19:07 - PHP Warning:  Missing argument 1 for ModelCatalogProduct::getCategories(), called in /home/student/public_html/opencart/catalog/model/catalog/product.php on line 324 and defined in /home/student/public_html/opencart/catalog/model/catalog/product.php on line 460
+2016-02-06 8:19:07 - PHP Notice:  Undefined variable: product_id in /home/student/public_html/opencart/catalog/model/catalog/product.php on line 461
+2016-02-06 8:19:18 - PHP Warning:  Missing argument 1 for ModelCatalogProduct::getCategories(), called in /home/student/public_html/opencart/catalog/model/catalog/product.php on line 324 and defined in /home/student/public_html/opencart/catalog/model/catalog/product.php on line 460
+2016-02-06 8:19:18 - PHP Notice:  Undefined variable: product_id in /home/student/public_html/opencart/catalog/model/catalog/product.php on line 461
+2016-02-06 8:19:58 - PHP Warning:  Missing argument 1 for ModelCatalogProduct::getCategories(), called in /home/student/public_html/opencart/catalog/model/catalog/product.php on line 324 and defined in /home/student/public_html/opencart/catalog/model/catalog/product.php on line 460
+2016-02-06 8:19:58 - PHP Notice:  Undefined variable: product_id in /home/student/public_html/opencart/catalog/model/catalog/product.php on line 461
+2016-02-06 8:20:06 - PHP Warning:  Missing argument 1 for ModelCatalogProduct::getCategories(), called in /home/student/public_html/opencart/catalog/model/catalog/product.php on line 324 and defined in /home/student/public_html/opencart/catalog/model/catalog/product.php on line 460
+2016-02-06 8:20:06 - PHP Notice:  Undefined variable: product_id in /home/student/public_html/opencart/catalog/model/catalog/product.php on line 461
+2016-02-06 9:23:16 - PHP Notice:  Undefined variable: limit in /home/student/public_html/opencart/catalog/model/catalog/product.php on line 326
+2016-02-06 9:23:16 - PHP Notice:  Undefined variable: limit in /home/student/public_html/opencart/catalog/model/catalog/product.php on line 331
+2016-02-06 9:23:16 - PHP Notice:  Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'int)3 ) ORDER BY quantity DESC LIMIT 0' at line 1<br />Error No: 1064<br />SELECT a.category_id, b.category_id ,a.parent_id, a.image,d.model,d.quantity FROM oc_category a, oc_product_to_category b,oc_order_product d WHERE (a.category_id=b.category_id) AND (b.product_id=d.product_id) AND (a.category_id = (int)3 ) ORDER BY quantity DESC LIMIT 0 in /home/student/public_html/opencart/system/database/mysql.php on line 50
+2016-02-06 9:24:10 - PHP Notice:  Undefined variable: limit in /home/student/public_html/opencart/catalog/model/catalog/product.php on line 326
+2016-02-06 9:24:10 - PHP Notice:  Undefined variable: limit in /home/student/public_html/opencart/catalog/model/catalog/product.php on line 331
+2016-02-06 9:24:10 - PHP Notice:  Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'int)3 ) ORDER BY quantity DESC LIMIT 0' at line 1<br />Error No: 1064<br />SELECT a.category_id, b.category_id ,a.parent_id, a.image,d.model,d.quantity FROM oc_category a, oc_product_to_category b,oc_order_product d WHERE (a.category_id=b.category_id) AND (b.product_id=d.product_id) AND (d.product_id = (int)3 ) ORDER BY quantity DESC LIMIT 0 in /home/student/public_html/opencart/system/database/mysql.php on line 50
+2016-02-06 9:24:11 - PHP Notice:  Undefined variable: limit in /home/student/public_html/opencart/catalog/model/catalog/product.php on line 326
+2016-02-06 9:24:11 - PHP Notice:  Undefined variable: limit in /home/student/public_html/opencart/catalog/model/catalog/product.php on line 331
+2016-02-06 9:24:11 - PHP Notice:  Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'int)3 ) ORDER BY quantity DESC LIMIT 0' at line 1<br />Error No: 1064<br />SELECT a.category_id, b.category_id ,a.parent_id, a.image,d.model,d.quantity FROM oc_category a, oc_product_to_category b,oc_order_product d WHERE (a.category_id=b.category_id) AND (b.product_id=d.product_id) AND (d.product_id = (int)3 ) ORDER BY quantity DESC LIMIT 0 in /home/student/public_html/opencart/system/database/mysql.php on line 50
+2016-02-06 9:24:17 - PHP Notice:  Undefined variable: limit in /home/student/public_html/opencart/catalog/model/catalog/product.php on line 326
+2016-02-06 9:24:17 - PHP Notice:  Undefined variable: limit in /home/student/public_html/opencart/catalog/model/catalog/product.php on line 331
+2016-02-06 9:24:17 - PHP Notice:  Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'int)3 ) ORDER BY quantity DESC LIMIT 0' at line 1<br />Error No: 1064<br />SELECT a.category_id, b.category_id ,a.parent_id, a.image,d.model,d.quantity FROM oc_category a, oc_product_to_category b,oc_order_product d WHERE (a.category_id=b.category_id) AND (b.product_id=d.product_id) AND (d.product_id = (int)3 ) ORDER BY quantity DESC LIMIT 0 in /home/student/public_html/opencart/system/database/mysql.php on line 50
+2016-02-06 9:49:10 - PHP Warning:  Missing argument 1 for ModelCatalogProduct::getCategories(), called in /home/student/public_html/opencart/catalog/model/catalog/product.php on line 324 and defined in /home/student/public_html/opencart/catalog/model/catalog/product.php on line 460
+2016-02-06 9:49:10 - PHP Notice:  Undefined variable: product_id in /home/student/public_html/opencart/catalog/model/catalog/product.php on line 461
+2016-02-06 9:49:10 - PHP Notice:  Undefined variable: heading_title1 in /home/student/public_html/opencart/catalog/view/theme/default/template/product/product.tpl on line 354
+2016-02-06 9:49:10 - PHP Notice:  Undefined variable: tproducts in /home/student/public_html/opencart/catalog/view/theme/default/template/product/product.tpl on line 357
+2016-02-06 9:49:10 - PHP Warning:  Invalid argument supplied for foreach() in /home/student/public_html/opencart/catalog/view/theme/default/template/product/product.tpl on line 357
+2016-02-06 9:49:42 - PHP Warning:  Missing argument 1 for ModelCatalogProduct::getCategories(), called in /home/student/public_html/opencart/catalog/model/catalog/product.php on line 324 and defined in /home/student/public_html/opencart/catalog/model/catalog/product.php on line 460
+2016-02-06 9:49:42 - PHP Notice:  Undefined variable: product_id in /home/student/public_html/opencart/catalog/model/catalog/product.php on line 461
+2016-02-06 9:49:42 - PHP Notice:  Undefined variable: tproducts in /home/student/public_html/opencart/catalog/view/theme/default/template/product/product.tpl on line 357
+2016-02-06 9:49:42 - PHP Warning:  Invalid argument supplied for foreach() in /home/student/public_html/opencart/catalog/view/theme/default/template/product/product.tpl on line 357
+2016-02-06 10:22:05 - PHP Notice:  Undefined variable: product_info in /home/student/public_html/opencart/catalog/controller/module/bestseller.php on line 23
+2016-02-06 10:40:27 - PHP Notice:  Undefined variable: product_id in /home/student/public_html/opencart/catalog/controller/module/bestseller.php on line 16
+2016-02-06 10:40:27 - PHP Warning:  Invalid argument supplied for foreach() in /home/student/public_html/opencart/catalog/controller/module/bestseller.php on line 18
+2016-02-06 10:41:36 - PHP Notice:  Undefined variable: product_id in /home/student/public_html/opencart/catalog/controller/module/bestseller.php on line 16
+2016-02-06 10:57:36 - PHP Notice:  Undefined variable: heading_title1 in /home/student/public_html/opencart/catalog/view/theme/default/template/product/product.tpl on line 353
+2016-02-06 10:57:36 - PHP Notice:  Undefined variable: tproducts in /home/student/public_html/opencart/catalog/view/theme/default/template/product/product.tpl on line 356
+2016-02-06 10:57:36 - PHP Warning:  Invalid argument supplied for foreach() in /home/student/public_html/opencart/catalog/view/theme/default/template/product/product.tpl on line 356
+2016-02-06 12:10:12 - PHP Notice:  Undefined variable: report_customer_referrer in /home/student/public_html/opencart/admin/view/template/common/header.tpl on line 238
+2016-02-06 12:10:12 - PHP Notice:  Undefined variable: text_report_customer_referrer in /home/student/public_html/opencart/admin/view/template/common/header.tpl on line 238
+2016-02-06 12:13:11 - PHP Notice:  Undefined variable: report_customer_order_statistics in /home/student/public_html/opencart/admin/view/template/common/header.tpl on line 236
+2016-02-06 12:13:11 - PHP Notice:  Undefined variable: report_customer_referrer in /home/student/public_html/opencart/admin/view/template/common/header.tpl on line 239
+2016-02-06 12:13:11 - PHP Notice:  Undefined variable: text_report_customer_referrer in /home/student/public_html/opencart/admin/view/template/common/header.tpl on line 239
+2016-02-06 12:13:35 - PHP Notice:  Undefined variable: report_customer_order_statistics in /home/student/public_html/opencart/admin/view/template/common/header.tpl on line 236
+2016-02-06 12:13:35 - PHP Notice:  Undefined variable: report_customer_referrer in /home/student/public_html/opencart/admin/view/template/common/header.tpl on line 239
+2016-02-06 12:13:35 - PHP Notice:  Undefined variable: text_report_customer_referrer in /home/student/public_html/opencart/admin/view/template/common/header.tpl on line 239
+2016-02-06 12:13:51 - PHP Notice:  Undefined variable: report_customer_order_statistics in /home/student/public_html/opencart/admin/view/template/common/header.tpl on line 236
+2016-02-06 12:13:51 - PHP Notice:  Undefined variable: report_customer_referrer in /home/student/public_html/opencart/admin/view/template/common/header.tpl on line 239
+2016-02-06 12:13:51 - PHP Notice:  Undefined variable: text_report_customer_referrer in /home/student/public_html/opencart/admin/view/template/common/header.tpl on line 239
+2016-02-06 12:19:41 - PHP Notice:  Undefined variable: report_customer_order_statistics in /home/student/public_html/opencart/admin/view/template/common/header.tpl on line 236
+2016-02-06 12:19:41 - PHP Notice:  Undefined variable: text_report_customer_order_statistics in /home/student/public_html/opencart/admin/view/template/common/header.tpl on line 236
+2016-02-06 12:19:41 - PHP Notice:  Undefined variable: report_customer_referrer in /home/student/public_html/opencart/admin/view/template/common/header.tpl on line 239
+2016-02-06 12:19:41 - PHP Notice:  Undefined variable: text_report_customer_referrer in /home/student/public_html/opencart/admin/view/template/common/header.tpl on line 239
+2016-02-06 12:19:57 - PHP Notice:  Undefined variable: report_customer_order_statistics in /home/student/public_html/opencart/admin/view/template/common/header.tpl on line 236
+2016-02-06 12:19:57 - PHP Notice:  Undefined variable: text_report_customer_order_statistics in /home/student/public_html/opencart/admin/view/template/common/header.tpl on line 236
+2016-02-06 12:19:57 - PHP Notice:  Undefined variable: report_customer_referrer in /home/student/public_html/opencart/admin/view/template/common/header.tpl on line 239
+2016-02-06 12:19:57 - PHP Notice:  Undefined variable: text_report_customer_referrer in /home/student/public_html/opencart/admin/view/template/common/header.tpl on line 239
+2016-02-06 12:27:21 - PHP Notice:  Undefined variable: report_customer_order_statistics in /home/student/public_html/opencart/admin/view/template/common/header.tpl on line 236
+2016-02-06 12:27:21 - PHP Notice:  Undefined variable: text_report_customer_order_statistics in /home/student/public_html/opencart/admin/view/template/common/header.tpl on line 236
+2016-02-06 12:27:21 - PHP Notice:  Undefined variable: report_customer_referrer in /home/student/public_html/opencart/admin/view/template/common/header.tpl on line 239
+2016-02-06 12:27:21 - PHP Notice:  Undefined variable: text_report_customer_referrer in /home/student/public_html/opencart/admin/view/template/common/header.tpl on line 239
+2016-02-06 13:21:51 - PHP Notice:  Undefined variable: report_customer_order_customer in /home/student/public_html/opencart/admin/view/template/common/header.tpl on line 236
+2016-02-06 13:21:51 - PHP Notice:  Undefined variable: text_report_customer_order_customer in /home/student/public_html/opencart/admin/view/template/common/header.tpl on line 236
+2016-02-06 13:22:02 - PHP Notice:  Undefined variable: report_customer_order_customer in /home/student/public_html/opencart/admin/view/template/common/header.tpl on line 236
+2016-02-06 13:22:02 - PHP Notice:  Undefined variable: text_report_customer_order_customer in /home/student/public_html/opencart/admin/view/template/common/header.tpl on line 236
+2016-02-06 16:50:21 - PHP Notice:  Undefined index: entry_referrer in /home/student/public_html/opencart/catalog/controller/checkout/shipping_method.php on line 160
+2016-02-07 9:32:25 - PHP Notice:  Undefined variable: tresult in /home/student/public_html/opencart/catalog/controller/product/product.php on line 442
+2016-02-07 9:32:25 - PHP Notice:  Undefined variable: tresult in /home/student/public_html/opencart/catalog/controller/product/product.php on line 442
+2016-02-07 9:32:25 - PHP Notice:  Undefined variable: tresult in /home/student/public_html/opencart/catalog/controller/product/product.php on line 442
+2016-02-07 9:32:25 - PHP Notice:  Undefined variable: tresult in /home/student/public_html/opencart/catalog/controller/product/product.php on line 442
+2016-02-07 9:32:25 - PHP Notice:  Undefined variable: tresult in /home/student/public_html/opencart/catalog/controller/product/product.php on line 442
+2016-02-07 9:32:25 - PHP Notice:  Undefined variable: tresult in /home/student/public_html/opencart/catalog/controller/product/product.php on line 442
+2016-02-07 9:32:25 - PHP Notice:  Undefined variable: tresult in /home/student/public_html/opencart/catalog/controller/product/product.php on line 442
+2016-02-07 9:32:25 - PHP Notice:  Undefined variable: tresult in /home/student/public_html/opencart/catalog/controller/product/product.php on line 442
+2016-02-07 9:32:25 - PHP Notice:  Undefined variable: tresult in /home/student/public_html/opencart/catalog/controller/product/product.php on line 442
+2016-02-07 9:32:25 - PHP Notice:  Undefined variable: tresult in /home/student/public_html/opencart/catalog/controller/product/product.php on line 442
+2016-02-07 9:32:25 - PHP Notice:  Undefined variable: tresult in /home/student/public_html/opencart/catalog/controller/product/product.php on line 442
+2016-02-07 9:32:25 - PHP Notice:  Undefined variable: tresult in /home/student/public_html/opencart/catalog/controller/product/product.php on line 442
+2016-02-07 9:32:25 - PHP Notice:  Undefined variable: tresult in /home/student/public_html/opencart/catalog/controller/product/product.php on line 442
+2016-02-07 9:32:25 - PHP Notice:  Undefined variable: tresult in /home/student/public_html/opencart/catalog/controller/product/product.php on line 442
+2016-02-07 9:32:42 - PHP Notice:  Undefined variable: tresult in /home/student/public_html/opencart/catalog/controller/product/product.php on line 442
+2016-02-07 9:32:42 - PHP Notice:  Undefined variable: tresult in /home/student/public_html/opencart/catalog/controller/product/product.php on line 442
+2016-02-07 9:32:42 - PHP Notice:  Undefined variable: tresult in /home/student/public_html/opencart/catalog/controller/product/product.php on line 442
+2016-02-07 9:32:42 - PHP Notice:  Undefined variable: tresult in /home/student/public_html/opencart/catalog/controller/product/product.php on line 442
+2016-02-07 9:32:42 - PHP Notice:  Undefined variable: tresult in /home/student/public_html/opencart/catalog/controller/product/product.php on line 442
+2016-02-07 9:32:42 - PHP Notice:  Undefined variable: tresult in /home/student/public_html/opencart/catalog/controller/product/product.php on line 442
+2016-02-07 9:32:42 - PHP Notice:  Undefined variable: tresult in /home/student/public_html/opencart/catalog/controller/product/product.php on line 442
+2016-02-07 9:32:42 - PHP Notice:  Undefined variable: tresult in /home/student/public_html/opencart/catalog/controller/product/product.php on line 442
+2016-02-07 9:32:42 - PHP Notice:  Undefined variable: tresult in /home/student/public_html/opencart/catalog/controller/product/product.php on line 442
+2016-02-07 9:32:42 - PHP Notice:  Undefined variable: tresult in /home/student/public_html/opencart/catalog/controller/product/product.php on line 442
+2016-02-07 9:32:42 - PHP Notice:  Undefined variable: tresult in /home/student/public_html/opencart/catalog/controller/product/product.php on line 442
+2016-02-07 9:33:16 - PHP Notice:  Undefined variable: tresult in /home/student/public_html/opencart/catalog/controller/product/product.php on line 442
+2016-02-07 9:33:16 - PHP Notice:  Undefined variable: tresult in /home/student/public_html/opencart/catalog/controller/product/product.php on line 442
+2016-02-07 9:33:16 - PHP Notice:  Undefined variable: tresult in /home/student/public_html/opencart/catalog/controller/product/product.php on line 442
+2016-02-07 9:33:16 - PHP Notice:  Undefined variable: tresult in /home/student/public_html/opencart/catalog/controller/product/product.php on line 442
+2016-02-07 9:33:16 - PHP Notice:  Undefined variable: tresult in /home/student/public_html/opencart/catalog/controller/product/product.php on line 442
+2016-02-07 9:33:16 - PHP Notice:  Undefined variable: tresult in /home/student/public_html/opencart/catalog/controller/product/product.php on line 442
+2016-02-07 9:33:16 - PHP Notice:  Undefined variable: tresult in /home/student/public_html/opencart/catalog/controller/product/product.php on line 442
+2016-02-07 9:33:16 - PHP Notice:  Undefined variable: tresult in /home/student/public_html/opencart/catalog/controller/product/product.php on line 442
+2016-02-07 9:33:16 - PHP Notice:  Undefined variable: tresult in /home/student/public_html/opencart/catalog/controller/product/product.php on line 442
+2016-02-07 9:33:16 - PHP Notice:  Undefined variable: tresult in /home/student/public_html/opencart/catalog/controller/product/product.php on line 442
+2016-02-07 9:33:16 - PHP Notice:  Undefined variable: tresult in /home/student/public_html/opencart/catalog/controller/product/product.php on line 442
+2016-02-07 10:08:17 - PHP Notice:  Undefined index: entry_referrer in /home/student/public_html/opencart/catalog/controller/checkout/shipping_method.php on line 160
+2016-02-07 10:17:57 - PHP Notice:  Undefined index: entry_referrer in /home/student/public_html/opencart/catalog/controller/checkout/shipping_method.php on line 160
+2016-02-07 11:22:19 - PHP Notice:  Undefined index: entry_referrer in /home/student/public_html/opencart/catalog/controller/checkout/shipping_method.php on line 160
+2016-02-07 11:22:32 - PHP Notice:  Undefined index: entry_referrer in /home/student/public_html/opencart/catalog/controller/checkout/shipping_method.php on line 160
+2016-02-07 11:38:14 - PHP Notice:  Undefined index: entry_referrer in /home/student/public_html/opencart/catalog/controller/checkout/shipping_method.php on line 160
+2016-02-07 16:09:50 - PHP Notice:  Undefined variable: column_number_of_distinct_product in /home/student/public_html/opencart/admin/view/template/report/customer_order_statistics.tpl on line 85
+2016-02-07 16:10:40 - PHP Notice:  Undefined variable: column_number_of_distinct_product in /home/student/public_html/opencart/admin/view/template/report/customer_order_statistics.tpl on line 85
+2016-02-07 16:10:40 - PHP Notice:  Undefined index: column_number_of_distinct_product in /home/student/public_html/opencart/admin/view/template/report/customer_order_statistics.tpl on line 102
+2016-02-07 16:10:40 - PHP Notice:  Undefined index: column_number_of_distinct_product in /home/student/public_html/opencart/admin/view/template/report/customer_order_statistics.tpl on line 102
+2016-02-07 16:12:22 - PHP Notice:  Undefined variable: column_referrer in /home/student/public_html/opencart/admin/view/template/report/customer_order_statistics.tpl on line 85
+2016-02-07 16:12:22 - PHP Notice:  Undefined index: referrer in /home/student/public_html/opencart/admin/view/template/report/customer_order_statistics.tpl on line 102
+2016-02-07 16:12:22 - PHP Notice:  Undefined index: referrer in /home/student/public_html/opencart/admin/view/template/report/customer_order_statistics.tpl on line 102
+2016-02-07 16:13:33 - PHP Notice:  Undefined variable: column_referrer in /home/student/public_html/opencart/admin/view/template/report/customer_order_statistics.tpl on line 85
+2016-02-07 16:13:33 - PHP Notice:  Undefined index: referrer in /home/student/public_html/opencart/admin/view/template/report/customer_order_statistics.tpl on line 102
+2016-02-07 16:13:33 - PHP Notice:  Undefined index: referrer in /home/student/public_html/opencart/admin/view/template/report/customer_order_statistics.tpl on line 102
+2016-02-07 16:19:53 - PHP Notice:  Undefined index: no_of_distinct_products in /home/student/public_html/opencart/admin/controller/report/customer_referrer.php on line 104
+2016-02-07 16:20:57 - PHP Notice:  session_start(): ps_files_cleanup_dir: opendir(/var/lib/php5) failed: Permission denied (13) in /home/student/public_html/opencart/system/library/session.php on line 11
+2016-02-07 16:23:10 - PHP Notice:  Undefined index: entry_referrer in /home/student/public_html/opencart/catalog/controller/checkout/shipping_method.php on line 160
+2016-02-07 16:23:31 - PHP Notice:  Undefined index: entry_referrer in /home/student/public_html/opencart/catalog/controller/checkout/shipping_method.php on line 160
+2016-02-07 16:27:27 - PHP Notice:  Undefined index: entry_referrer in /home/student/public_html/opencart/catalog/controller/checkout/shipping_method.php on line 160
+2016-02-07 16:30:42 - PHP Notice:  Undefined index: entry_referrer in /home/student/public_html/opencart/catalog/controller/checkout/shipping_method.php on line 160
+2016-02-07 16:34:00 - PHP Notice:  Undefined index: entry_referrer in /home/student/public_html/opencart/catalog/controller/checkout/shipping_method.php on line 160
+2016-02-07 17:48:17 - PHP Notice:  Undefined variable: column_number_distinct_products in /home/student/public_html/opencart/admin/view/template/report/customer_order_statistics.tpl on line 23
+2016-02-07 17:48:17 - PHP Notice:  Undefined index: numberofunits in /home/student/public_html/opencart/admin/view/template/report/customer_order_statistics.tpl on line 39
+2016-02-07 17:48:17 - PHP Notice:  Undefined variable: column_number_distinct_products in /home/student/public_html/opencart/admin/view/template/report/customer_order_statistics.tpl on line 87
+2016-02-07 17:48:17 - PHP Notice:  Undefined index: numberofunits in /home/student/public_html/opencart/admin/view/template/report/customer_order_statistics.tpl on line 104
+2016-02-07 17:48:17 - PHP Notice:  Undefined index: numberofunits in /home/student/public_html/opencart/admin/view/template/report/customer_order_statistics.tpl on line 104
+2016-02-07 17:48:17 - PHP Notice:  Undefined index: numberofunits in /home/student/public_html/opencart/admin/view/template/report/customer_order_statistics.tpl on line 104
+2016-02-07 17:57:53 - PHP Notice:  Undefined variable: topcustomers in /home/student/public_html/opencart/admin/view/template/report/customer_order_statistics.tpl on line 30
+2016-02-07 17:58:08 - PHP Notice:  Undefined variable: bests in /home/student/public_html/opencart/admin/view/template/report/customer_referrer.tpl on line 33
+2016-02-12 15:12:24 - PHP Notice:  Use of undefined constant url - assumed 'url' in /home/student/public_html/opencart/admin/controller/report/customer_order_statistics.php on line 49
+2016-02-12 15:12:31 - PHP Notice:  Use of undefined constant url - assumed 'url' in /home/student/public_html/opencart/admin/controller/report/customer_order_statistics.php on line 49
+2016-02-12 15:12:38 - PHP Notice:  Use of undefined constant url - assumed 'url' in /home/student/public_html/opencart/admin/controller/report/customer_order_statistics.php on line 49
+2016-02-12 15:15:13 - PHP Notice:  Use of undefined constant url - assumed 'url' in /home/student/public_html/opencart/admin/controller/report/customer_order_statistics.php on line 49
+2016-02-12 15:15:48 - PHP Notice:  Use of undefined constant url - assumed 'url' in /home/student/public_html/opencart/admin/controller/report/customer_order_statistics.php on line 49
+2016-02-12 15:29:46 - PHP Notice:  Undefined variable: topcustomers in /home/student/public_html/opencart/admin/view/template/report/customer_order_statistics.tpl on line 30
+2016-02-12 15:29:55 - PHP Notice:  Undefined variable: bests in /home/student/public_html/opencart/admin/view/template/report/customer_referrer.tpl on line 33
+2016-02-12 15:30:36 - PHP Notice:  Undefined variable: bests in /home/student/public_html/opencart/admin/view/template/report/customer_referrer.tpl on line 33
+2016-02-12 16:15:15 - PHP Notice:  Undefined variable: bests in /home/student/public_html/opencart/admin/view/template/report/customer_referrer.tpl on line 33
+2016-02-12 17:09:47 - PHP Notice:  Undefined variable: bests in /home/student/public_html/opencart/admin/view/template/report/customer_referrer.tpl on line 33
+2016-02-12 17:11:00 - PHP Notice:  Undefined variable: bests in /home/student/public_html/opencart/admin/view/template/report/customer_referrer.tpl on line 33
+2016-02-12 17:16:21 - PHP Notice:  Undefined variable: bests in /home/student/public_html/opencart/admin/view/template/report/customer_referrer.tpl on line 33
+2016-02-12 18:12:55 - PHP Notice:  Undefined variable: bests in /home/student/public_html/opencart/admin/view/template/report/customer_referrer.tpl on line 33
+2016-02-16 5:15:34 - PHP Notice:  Undefined variable: column_number_distinct_products in /home/student/public_html/opencart/admin/view/template/report/customer_order_statistics.tpl on line 64
+2016-02-16 5:15:34 - PHP Notice:  Undefined variable: best in /home/student/public_html/opencart/admin/view/template/report/customer_order_statistics.tpl on line 79
+2016-02-16 5:15:34 - PHP Notice:  Undefined variable: best in /home/student/public_html/opencart/admin/view/template/report/customer_order_statistics.tpl on line 79
+2016-02-16 5:16:34 - PHP Notice:  Undefined variable: column_number_distinct_products in /home/student/public_html/opencart/admin/view/template/report/customer_order_statistics.tpl on line 64
+2016-02-16 5:16:34 - PHP Notice:  Undefined variable: best in /home/student/public_html/opencart/admin/view/template/report/customer_order_statistics.tpl on line 79
+2016-02-16 5:16:34 - PHP Notice:  Undefined variable: best in /home/student/public_html/opencart/admin/view/template/report/customer_order_statistics.tpl on line 79
+2016-02-16 5:17:57 - PHP Notice:  Undefined variable: column_number_distinct_products in /home/student/public_html/opencart/admin/view/template/report/customer_order_statistics.tpl on line 64
+2016-02-16 5:17:57 - PHP Notice:  Undefined index: numberofunits in /home/student/public_html/opencart/admin/view/template/report/customer_order_statistics.tpl on line 79
+2016-02-16 5:17:57 - PHP Notice:  Undefined index: numberofunits in /home/student/public_html/opencart/admin/view/template/report/customer_order_statistics.tpl on line 79
+2016-02-16 5:21:51 - PHP Notice:  Undefined variable: column_number_distinct_products in /home/student/public_html/opencart/admin/view/template/report/customer_order_statistics.tpl on line 64
+2016-02-16 5:23:01 - PHP Notice:  Undefined variable: customer in /home/student/public_html/opencart/admin/view/template/report/customer_order_statistics.tpl on line 40
+2016-02-16 6:25:55 - PHP Notice:  Use of undefined constant url - assumed 'url' in /home/student/public_html/opencart/admin/controller/report/customer_order_statistics.php on line 49
+2016-02-16 6:26:19 - PHP Notice:  Use of undefined constant url - assumed 'url' in /home/student/public_html/opencart/admin/controller/report/customer_order_statistics.php on line 49
+2016-02-16 6:26:26 - PHP Notice:  Use of undefined constant url - assumed 'url' in /home/student/public_html/opencart/admin/controller/report/customer_order_statistics.php on line 49
+2016-02-16 6:26:30 - PHP Notice:  Use of undefined constant url - assumed 'url' in /home/student/public_html/opencart/admin/controller/report/customer_order_statistics.php on line 49
+2016-02-16 6:26:35 - PHP Notice:  Use of undefined constant url - assumed 'url' in /home/student/public_html/opencart/admin/controller/report/customer_order_statistics.php on line 49
+2016-02-16 6:27:46 - PHP Notice:  Use of undefined constant url - assumed 'url' in /home/student/public_html/opencart/admin/controller/report/customer_order_statistics.php on line 49
+2016-02-16 6:28:47 - PHP Notice:  Use of undefined constant url - assumed 'url' in /home/student/public_html/opencart/admin/controller/report/customer_order_statistics.php on line 49
+2016-02-16 6:28:54 - PHP Notice:  Use of undefined constant url - assumed 'url' in /home/student/public_html/opencart/admin/controller/report/customer_order_statistics.php on line 49
+2016-02-16 6:29:47 - PHP Notice:  Use of undefined constant url - assumed 'url' in /home/student/public_html/opencart/admin/controller/report/customer_order_statistics.php on line 49
+2016-02-16 6:40:49 - PHP Notice:  Undefined variable: filter_customer in /home/student/public_html/opencart/admin/view/template/report/customer_order_statistics.tpl on line 63
+2016-02-16 6:42:55 - PHP Notice:  Use of undefined constant url - assumed 'url' in /home/student/public_html/opencart/admin/controller/report/customer_order_statistics.php on line 49
+2016-02-16 6:51:56 - PHP Notice:  Undefined variable: filter_name in /home/student/public_html/opencart/admin/view/template/report/customer_order_statistics.tpl on line 63
+2016-02-16 6:59:55 - PHP Notice:  Undefined variable: filter_customer_name in /home/student/public_html/opencart/admin/controller/report/customer_order_statistics.php on line 81
+2016-02-16 6:59:55 - PHP Notice:  Undefined variable: filter_customer_name in /home/student/public_html/opencart/admin/controller/report/customer_order_statistics.php on line 189
+2016-02-16 11:54:37 - PHP Notice:  Undefined variable: filter_ip in /home/student/public_html/opencart/admin/view/template/report/customer_order_statistics.tpl on line 101
+2016-02-16 11:54:37 - PHP Notice:  Undefined variable: filter_customer in /home/student/public_html/opencart/admin/view/template/report/customer_order_statistics.tpl on line 102
+2016-02-16 11:55:13 - PHP Notice:  Undefined variable: filter_customer in /home/student/public_html/opencart/admin/view/template/report/customer_order_statistics.tpl on line 102
+2016-02-16 11:55:18 - PHP Notice:  Undefined variable: filter_customer in /home/student/public_html/opencart/admin/view/template/report/customer_order_statistics.tpl on line 102
+2016-02-16 11:55:43 - PHP Notice:  Undefined variable: filter_customer in /home/student/public_html/opencart/admin/view/template/report/customer_order_statistics.tpl on line 102
+2016-02-16 11:55:53 - PHP Notice:  Undefined variable: filter_customer in /home/student/public_html/opencart/admin/view/template/report/customer_order_statistics.tpl on line 102
+2016-02-16 11:57:00 - PHP Notice:  Undefined variable: filter_customer in /home/student/public_html/opencart/admin/view/template/report/customer_order_statistics.tpl on line 102
+2016-02-16 11:58:49 - PHP Notice:  Undefined variable: filter_customer in /home/student/public_html/opencart/admin/view/template/report/customer_order_statistics.tpl on line 101
+2016-02-16 11:58:49 - PHP Notice:  Undefined variable: filter_customer_email in /home/student/public_html/opencart/admin/view/template/report/customer_order_statistics.tpl on line 102
+2016-02-16 12:04:56 - PHP Notice:  Undefined variable: filter_customer in /home/student/public_html/opencart/admin/view/template/report/customer_order_statistics.tpl on line 101
+2016-02-16 12:04:56 - PHP Notice:  Undefined variable: filter_customer_email in /home/student/public_html/opencart/admin/view/template/report/customer_order_statistics.tpl on line 102
+2016-02-16 12:04:59 - PHP Notice:  Undefined variable: filter_customer in /home/student/public_html/opencart/admin/view/template/report/customer_order_statistics.tpl on line 101
+2016-02-16 12:04:59 - PHP Notice:  Undefined variable: filter_customer_email in /home/student/public_html/opencart/admin/view/template/report/customer_order_statistics.tpl on line 102
+2016-02-16 12:05:23 - PHP Notice:  Undefined variable: filter_customer in /home/student/public_html/opencart/admin/view/template/report/customer_order_statistics.tpl on line 101
+2016-02-16 12:05:23 - PHP Notice:  Undefined variable: filter_customer_email in /home/student/public_html/opencart/admin/view/template/report/customer_order_statistics.tpl on line 102
+2016-02-16 12:05:28 - PHP Notice:  Undefined variable: filter_customer in /home/student/public_html/opencart/admin/view/template/report/customer_order_statistics.tpl on line 101
+2016-02-16 12:05:28 - PHP Notice:  Undefined variable: filter_customer_email in /home/student/public_html/opencart/admin/view/template/report/customer_order_statistics.tpl on line 102
+2016-02-16 12:08:09 - PHP Notice:  Undefined variable: filter_customer in /home/student/public_html/opencart/admin/view/template/report/customer_order_statistics.tpl on line 101
+2016-02-16 12:08:09 - PHP Notice:  Undefined variable: filter_customer_email in /home/student/public_html/opencart/admin/view/template/report/customer_order_statistics.tpl on line 102
+2016-02-16 12:08:12 - PHP Notice:  Undefined variable: filter_customer in /home/student/public_html/opencart/admin/view/template/report/customer_order_statistics.tpl on line 101
+2016-02-16 12:08:12 - PHP Notice:  Undefined variable: filter_customer_email in /home/student/public_html/opencart/admin/view/template/report/customer_order_statistics.tpl on line 102
+2016-02-16 12:39:26 - PHP Notice:  Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '== 'Pallavi Singh'' at line 1<br />Error No: 1064<br />SELECT COUNT(DISTINCT o.customer_id) AS total FROM `oc_order` o WHERE o.customer_id > '0' AND o.order_status_id > '0' AND o.firstname == 'Pallavi Singh' in /home/student/public_html/opencart/system/database/mysql.php on line 50
+2016-02-16 12:46:26 - PHP Notice:  Undefined variable: entry_customer_name in /home/student/public_html/opencart/admin/view/template/report/customer_referrer.tpl on line 57
+2016-02-16 12:46:26 - PHP Notice:  Undefined variable: filter_customer_name in /home/student/public_html/opencart/admin/view/template/report/customer_referrer.tpl on line 58
+2016-02-16 12:48:18 - PHP Notice:  Undefined variable: filter_customer_name in /home/student/public_html/opencart/admin/view/template/report/customer_referrer.tpl on line 58
+2016-02-16 12:52:19 - PHP Notice:  Undefined variable: filter_customer_email in /home/student/public_html/opencart/admin/controller/report/customer_order_statistics.php on line 94
+2016-02-16 12:52:19 - PHP Notice:  Undefined variable: filter_customer in /home/student/public_html/opencart/admin/controller/report/customer_order_statistics.php on line 95
+2016-02-16 12:52:30 - PHP Notice:  Undefined variable: filter_customer_email in /home/student/public_html/opencart/admin/controller/report/customer_order_statistics.php on line 94
+2016-02-16 12:52:30 - PHP Notice:  Undefined variable: filter_customer in /home/student/public_html/opencart/admin/controller/report/customer_order_statistics.php on line 95
+2016-02-16 12:52:41 - PHP Notice:  Undefined variable: filter_customer_email in /home/student/public_html/opencart/admin/controller/report/customer_order_statistics.php on line 94
+2016-02-16 12:52:41 - PHP Notice:  Undefined variable: filter_customer in /home/student/public_html/opencart/admin/controller/report/customer_order_statistics.php on line 95
+2016-02-17 10:47:24 - PHP Notice:  Undefined variable: topresult in /home/student/public_html/opencart/admin/controller/report/customer_order_statistics.php on line 102
+2016-02-17 10:52:19 - PHP Notice:  Undefined variable: topresult in /home/student/public_html/opencart/admin/controller/report/customer_order_statistics.php on line 102
+2016-02-17 10:53:18 - PHP Notice:  Undefined variable: topresult in /home/student/public_html/opencart/admin/controller/report/customer_order_statistics.php on line 102
+2016-02-17 11:00:52 - PHP Notice:  Undefined variable: topresult in /home/student/public_html/opencart/admin/controller/report/customer_order_statistics.php on line 102
+2016-02-17 11:03:39 - PHP Notice:  Undefined variable: text_referrer_name in /home/student/public_html/opencart/catalog/view/theme/default/template/checkout/confirm.tpl on line 61
+2016-02-17 11:03:39 - PHP Notice:  Undefined variable: entry_referrer in /home/student/public_html/opencart/catalog/view/theme/default/template/checkout/confirm.tpl on line 62
+2016-02-17 11:08:39 - PHP Notice:  Undefined variable: topresult in /home/student/public_html/opencart/admin/controller/report/customer_order_statistics.php on line 102
+2016-02-17 11:08:44 - PHP Notice:  Undefined variable: topresult in /home/student/public_html/opencart/admin/controller/report/customer_order_statistics.php on line 102
+2016-02-17 11:09:30 - PHP Notice:  Undefined variable: topresult in /home/student/public_html/opencart/admin/controller/report/customer_order_statistics.php on line 102
+2016-02-17 11:09:37 - PHP Notice:  Undefined variable: topresult in /home/student/public_html/opencart/admin/controller/report/customer_order_statistics.php on line 102
+2016-02-17 11:10:16 - PHP Notice:  Undefined variable: topresult in /home/student/public_html/opencart/admin/controller/report/customer_order_statistics.php on line 102
+2016-02-17 11:10:23 - PHP Notice:  Undefined variable: topresult in /home/student/public_html/opencart/admin/controller/report/customer_order_statistics.php on line 102
+2016-02-17 11:10:33 - PHP Notice:  Undefined variable: topresult in /home/student/public_html/opencart/admin/controller/report/customer_order_statistics.php on line 102
+2016-02-17 11:10:41 - PHP Notice:  Undefined variable: topresult in /home/student/public_html/opencart/admin/controller/report/customer_order_statistics.php on line 102
+2016-02-17 11:10:48 - PHP Notice:  Undefined variable: topresult in /home/student/public_html/opencart/admin/controller/report/customer_order_statistics.php on line 102
+2016-02-17 11:11:21 - PHP Notice:  Undefined variable: topresult in /home/student/public_html/opencart/admin/controller/report/customer_order_statistics.php on line 102
+2016-03-01 13:39:54 - PHP Notice:  Undefined variable: topresult in /home/student/public_html/opencart/admin/controller/report/customer_order_statistics.php on line 102
+2016-03-01 13:40:04 - PHP Notice:  Undefined variable: topresult in /home/student/public_html/opencart/admin/controller/report/customer_order_statistics.php on line 102
+2016-03-01 13:40:10 - PHP Notice:  Undefined variable: topresult in /home/student/public_html/opencart/admin/controller/report/customer_order_statistics.php on line 102
+2016-03-01 13:40:16 - PHP Notice:  Undefined variable: topresult in /home/student/public_html/opencart/admin/controller/report/customer_order_statistics.php on line 102
+2016-03-01 13:40:22 - PHP Notice:  Undefined variable: topresult in /home/student/public_html/opencart/admin/controller/report/customer_order_statistics.php on line 102
+2016-03-01 13:40:30 - PHP Notice:  Undefined variable: topresult in /home/student/public_html/opencart/admin/controller/report/customer_order_statistics.php on line 102
+2016-03-01 13:40:36 - PHP Notice:  Undefined variable: topresult in /home/student/public_html/opencart/admin/controller/report/customer_order_statistics.php on line 102
+2016-03-01 13:40:41 - PHP Notice:  Undefined variable: topresult in /home/student/public_html/opencart/admin/controller/report/customer_order_statistics.php on line 102
+2016-03-01 13:40:52 - PHP Notice:  Undefined variable: topresult in /home/student/public_html/opencart/admin/controller/report/customer_order_statistics.php on line 102
+2016-03-01 14:00:32 - PHP Notice:  Undefined variable: bests in /home/student/public_html/opencart/admin/view/template/report/customer_referrer.tpl on line 33
+2016-03-01 14:00:40 - PHP Notice:  Undefined variable: topcustomers in /home/student/public_html/opencart/admin/view/template/report/customer_order_statistics.tpl on line 33
+2016-03-01 14:03:32 - PHP Notice:  Undefined variable: topresult in /home/student/public_html/opencart/admin/controller/report/customer_order_statistics.php on line 102
+2016-03-01 14:04:15 - PHP Notice:  Undefined variable: topresult in /home/student/public_html/opencart/admin/controller/report/customer_order_statistics.php on line 102
+2016-03-01 14:04:33 - PHP Notice:  Undefined variable: topresult in /home/student/public_html/opencart/admin/controller/report/customer_order_statistics.php on line 102
+2016-03-01 14:18:39 - PHP Notice:  session_start(): ps_files_cleanup_dir: opendir(/var/lib/php5) failed: Permission denied (13) in /home/student/public_html/opencart/system/library/session.php on line 11
